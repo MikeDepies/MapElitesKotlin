@@ -3,8 +3,8 @@ plugins {
     `maven-publish`
 }
 
-group = "ai.sunnystratgies"
-version = "0.1.1-SNAPSHOT"
+group = "com.github.MikeDepies"
+version = "0.1.4"
 val kotest = "5.8.0"
 
 repositories {
@@ -28,9 +28,9 @@ publishing {
     publications {
         create<MavenPublication>("mavenJava") {
             from(components["java"])
-            groupId = "ai.sunnystratgies"
+            groupId = "com.github.MikeDepies"
             artifactId = "MapElitesKotlin"
-            version = "0.1.1-SNAPSHOT"
+            version = "0.1.4"
         }
     }
 }

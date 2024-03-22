@@ -24,10 +24,10 @@ fun main() {
     val eliteEvaluator = object : EliteEvaluator {
         override fun evaluate(solution: Solution): Double {
             TODO("Not yet implemented")
-        }lll
+        }
     }
     val eliteMapOperator = EliteMapOperatorImpl(featureDescriptor, mutableMapOf())
-    val mapElites = MapElitesAlgorithm(eliteMapOperator, eliteMutator, eliteEvaluator)
+    val mapElites = MapElitesAlgorithm(eliteMapOperator, eliteMutator, eliteEvaluator, MapElitesConfiguration((.5)))
     mapElites.initialize(100)
     mapElites.evolve(1000)
 }
