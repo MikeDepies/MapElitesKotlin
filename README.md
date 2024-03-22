@@ -2,6 +2,9 @@
 
 MapElitesKotlin is a Kotlin-based implementation of the Map Elites algorithm, an evolutionary computation technique for generating diverse, high-quality solutions. It's designed for flexibility and efficiency in exploring various solution spaces.
 
+## NOTICE
+This is a work in progress and is not yet ready for use. Please do not use this library in production code until it is stable. 
+
 ## Getting Started
 
 Ensure Kotlin is installed in your development environment. Clone this repository to include it in your project's dependencies. Alternatively, use jitpack for easy integration:
