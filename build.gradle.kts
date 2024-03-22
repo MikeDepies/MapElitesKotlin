@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.github.MikeDepies"
-version = "0.1.4"
+version = "0.1.5"
 val kotest = "5.8.0"
 
 repositories {
@@ -30,7 +30,7 @@ publishing {
             from(components["java"])
             groupId = "com.github.MikeDepies"
             artifactId = "MapElitesKotlin"
-            version = "0.1.4"
+            version = "0.1.5"
         }
     }
 }
