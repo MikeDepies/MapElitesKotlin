@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "ai.sunnystratgies"
-version = "0.1.0-SNAPSHOT"
+version = "0.1.1-SNAPSHOT"
 val kotest = "5.8.0"
 
 repositories {
@@ -28,9 +28,9 @@ publishing {
     publications {
         create<MavenPublication>("mavenJava") {
             from(components["java"])
-            groupId = group.toString()
-            artifactId = "map-elites"
-            version = version
+            groupId = "ai.sunnystratgies"
+            artifactId = "MapElitesKotlin"
+            version = "0.1.1-SNAPSHOT"
         }
     }
 }
