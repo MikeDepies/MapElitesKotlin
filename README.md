@@ -29,7 +29,7 @@ allprojects {
 ### Step 2: Add MapElitesKotlin dependency
 ```gradle
 dependencies {
-    implementation 'com.github.MikeDepies:MapElitesKotlin:0.1.5'
+    implementation 'com.github.mikedepies:MapElitesKotlin:0.1.5'
 }
 ```
 
@@ -69,7 +69,9 @@ fun main() {
 ## Goals
 The primary goal of this project is to develop a simple yet extensible Map Elites framework tailored for Kotlin. This framework is designed with versatility in mind, making no assumptions about the model type it is applied to. As a result, it can be seamlessly integrated with various domains, ranging from Neural Networks to more abstract use cases. This flexibility allows developers to leverage the power of the Map Elites algorithm in a wide array of applications, fostering innovation and efficiency in problem-solving.
 
-
+## TODO
+- [ ] Add support for parallelization of iterations
+- [ ] Add support for async batch elite updates
 ## Features
 
 - Map Elites algorithm implementation in Kotlin
